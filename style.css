@@ -489,3 +489,32 @@ footer li {
     top: 31px;
   }
 }
+  /* Mobile Phone 2*/
+@media (max-width: 480px) {
+  html {
+    font-size: 58%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 43px;
+    margin: 2px;
+  }
+
+  .timeline li .timeline-image {
+    width: 70px;
+    height: 70px;
+  }
+
+  .timeline li .timeline-panel {
+    width: 63%;
+    transform: translateX(-18px);
+  }
+
+  .timeline li .timeline-panel::before {
+    top: 28px;
+  }
+
+  .timeline li .timeline-panel::after {
+    top: 29px;
+  }
+}
