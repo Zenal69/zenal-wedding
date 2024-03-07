@@ -93,7 +93,8 @@ body {
 .story h2,
 .gallery h2,
 .rsvp h2,
-.gifts h2 {
+.gifts h2,
+.surah h2 {
   font-family: 'Sacramento';
   font-size: 5rem;
   font-weight: bold;
@@ -117,12 +118,16 @@ body {
 
 .home .couple h3 {
   font-family: 'Sacramento';
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   color: var(--pink);
 }
 
 .home .couple img {
   width: 100%;
+}
+.home .couple p {
+font-size: 1.5rem;
+font-weight: 300;
 }
 
 .home .heart {
@@ -183,7 +188,8 @@ body {
 .story,
 .gallery,
 .rsvp,
-.gifts {
+.gifts,
+.surah {
   padding-top: 10rem;
   padding-bottom: 8rem;
 }
@@ -191,7 +197,8 @@ body {
 .story span,
 .gallery span,
 .rsvp span,
-.gifts span {
+.gifts span,
+.surah span {
   text-transform: uppercase;
   color: #666;
   font-size: 0.9rem;
@@ -203,7 +210,8 @@ body {
 .story p,
 .gallery p,
 .rsvp p,
-.gifts p {
+.gifts p,
+.surah p {
   font-size: 1rem;
   font-weight: 300;
 }
@@ -328,6 +336,9 @@ body {
   background-color: white;
   color: var(--pink);
   border: 1px solid white;
+}
+.surah {
+  background-color: white;
 }
 
 footer {
